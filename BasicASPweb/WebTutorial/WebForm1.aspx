@@ -15,33 +15,27 @@
     <div class="container mt-3">
         <div class="row text-white">
             <form runat="server" id="form1" class="col">
-
                 <label for="text">Input your text : </label>
                 <input runat="server" type="text" id="myTxt" />
-
                 <asp:Button id="Button1" runat="server" Text="Enter" onclick="convertToUpper" class="btn btn-primary mx-2"/>
                 <br /><br />
+
                 <h3>Conversion text to Upper Case</h3>
                 <label>Result : </label>
                 <span runat="server" id="txtLog"></span>
+                <br /><br />
 
-                
-                    <br />
-                    <br />
-                  
-                    <div class="row">
-                        <div class="col-12">
-                            <label class="h3 ">Event Handler Example</label>
-                            <asp:Button ID="btnShow" runat="server" CssClass="btn btn-danger mx-2" Text="Hide" onclick="btnclick_Show" />
-                        </div>
-                        <div class="col-12">
-                                <asp:Label ID="lblmessage" CssClass=" " runat="server" ></asp:Label>
-                                <asp:Button ID="btnclick" CssClass="btn btn-primary mx-1 my-3" runat="server" Text="Click" onclick="btnclick_Click" />
-                                <asp:Button ID="btnReset" CssClass="btn btn-danger mx-1 my-3" runat="server" Text="Reset" onclick="btnclick_Reset" />
-                        </div>
+                <div class="row">
+                    <div class="col-12">
+                        <label class="h3 ">Event Handler Example</label>
+                        <asp:Button ID="btnShow" runat="server" CssClass="btn btn-danger mx-2" Text="Hide" onclick="btnclick_Show" />
                     </div>
-                    
-
+                    <div class="col-12">
+                            <asp:Label ID="lblmessage" CssClass=" " runat="server" ></asp:Label>
+                            <asp:Button ID="btnclick" CssClass="btn btn-primary mx-1 my-3" runat="server" Text="Click" onclick="btnclick_Click" />
+                            <asp:Button ID="btnReset" CssClass="btn btn-danger mx-1 my-3" runat="server" Text="Reset" onclick="btnclick_Reset" />
+                    </div>
+                </div>
             </form>
         </div>
         
