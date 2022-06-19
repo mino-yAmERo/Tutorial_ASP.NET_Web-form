@@ -2,4 +2,4 @@
 
 ASP.NET Web-form Tutorial
 
-path : /BasicASPweb/WebTutorial
+path : BasicASPweb/WebTutorial
